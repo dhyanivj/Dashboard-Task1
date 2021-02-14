@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  justify-content: space-around;
+  border: 1px rgb(153, 153, 153) solid;
+  margin: 2px;
+  padding: 1px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.sidebar {
+  background: #323484;
+  border-radius: 12px;
+  padding: 20px 10px;
+  color: snow;
+  /* position: sticky; */
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.number {
+  font-weight: 600;
+  font-size: 2em;
+}
+.icon {
+  font-size: 50px;
+}
+.stats {
+  margin-bottom: 10px;
+}
