@@ -1,8 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
-
-// import BarChart from "./components/BarChart";
-import { Button, Container, Paper, Typography, Grid } from "@material-ui/core";
 import "./styles.css";
 import Chart from "./charts/chart";
 import Sidebar from "./sidebar/sidebar";
