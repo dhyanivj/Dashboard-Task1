@@ -10,8 +10,9 @@ const LineChart2 = () => {
           labels: [10, 20, 30, 40, 50, 60, 70, 80, 90],
           datasets: [
             {
-              label: "# of Votes",
-              data: [12, 19, 23, 35, 2, 15, 61, 3, 25, 88, 65]
+              label: "Number of unique visitors",
+              data: [52, 19, 83, 35, 2, 25, 36, 28, 54],
+              backgroundColor: ["#323484"]
             }
           ]
         }}
